@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='stylesheet' href="styles.css">
+    <title>QuoteGen</title>
+</head>
+<body>
+    <main class="main flow">
+        <h1 class="main__heading">Quote Generator</h1>
+                <div class="cards__card card">
+                    <p class="card__price" id="quoteDisplay"></p>
+                    
+                    <button onclick="newQuote('https://api.quotable.io/random', 'quoteDisplay')">
+                        <span class="text">Generate Quote</span>
+                        <span class="shimmer"></span>
+                    </button>
+        </div>
+    </main>
+    <script src="javascript.js"></script>
+</body>
+</html>
+
